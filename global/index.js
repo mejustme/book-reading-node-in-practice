@@ -1,3 +1,4 @@
+var util = require('util')
 var moduleA = require('./module-a')
 console.log(require.resolve('./module-a')) // 查看require('xx') 最终加载的那个文件
 // console.log(require.cache)
